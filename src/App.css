@@ -1,38 +1,102 @@
-.App {
+.main-container {
+  height: 300vh;
+  width: 100%;
+  background-color: #333333;
+}
+
+.drag-container {
+  position: absolute;
+  width: 729px;
+  height: 600px;
+  left: 464px;
+  top: 181px;
+
+  background: #999999;
+  box-shadow: 13.9968px 11.664px 4.6656px rgba(0, 0, 0, 0.25);
+  border-radius: 59.0762px;
+}
+.upload-container {
   text-align: center;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 38.9206px;
+  line-height: 58px;
+  color: #ffffff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.drag-down-container {
+  margin: 55px;
+  width: 612.36px;
+  height: 344.45px;
+  background: #cccccc;
+  border: 2.3328px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 58.32px;
+}
+.drag-drop-container {
+  position: relative;
+  top: 30%;
+}
+.drag-drop-text {
+  text-align: center;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19.5924px;
+  line-height: 29px;
+
+  color: #ffffff;
+}
+.folder-image {
+  position: relative;
+  left: 42.7%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  padding: 0px;
+  margin: 0px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h1 {
+  padding: 0px;
+  margin: 0px;
+}
+
+.file-img {
+  position: relative;
+  left: 10%;
+  width: 50px;
+  height: 55px;
+  top: 5%;
+}
+.file-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.file-name {
+  position: relative;
+  left: 12%;
+  bottom: 70%;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15.5083px;
+  line-height: 23px;
+
+  color: #ffffff;
 }
 
-.App-link {
-  color: #61dafb;
+.progress-bar {
+  position: relative;
+  top: 40px;
+  background-color: #ffffff;
+  height: 8px;
+  border-radius: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.progress-indicator {
+  position: relative;
+  color: #ffffff;
+  top: 15px;
+  right: 50px;
 }
