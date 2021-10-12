@@ -19,7 +19,7 @@ for slide in prs.slides:
                 text_rendered.append(run)
     text_runs[slide_count] = text_rendered
 
-for value in text_runs:
+for value in text_runs.items():
     print(key, value)
 
 
